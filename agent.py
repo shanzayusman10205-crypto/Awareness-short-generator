@@ -6,7 +6,7 @@ from moviepy import VideoFileClip, concatenate_videoclips, vfx
 import requests
 
 # --- Setup ---
-API_KEY = "sk-ws-H.YXEEDI.Nz8w.MEQCIAO0LgpW7hsLkHhPbESpOWpRgiAFCXzMVk0A9D7lscDWAiBbXxZm-sKw_VTdixM_JlAt4KyLym02HEwLhNngsxkCag"
+API_KEY = "YOUR_API_KEY_HERE"
 dashscope.api_key = API_KEY
 dashscope.base_http_api_url = "https://dashscope-intl.aliyuncs.com/api/v1"
 

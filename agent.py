@@ -107,7 +107,7 @@ def run_agent(topic, key_message="", tone="hopeful and respectful", length="60-9
 
     print("Breaking into scenes...")
     scenes = generate_scenes(script, manual_scenes)
-    scenes = scenes[:3]  # TEMP: limit to 3 scenes for testing
+    #scenes = scenes[:3]  # TEMP: limit to 3 scenes for testing
 
     print(f"Generating {len(scenes)} video clips...")
     clip_paths = []
